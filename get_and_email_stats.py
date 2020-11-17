@@ -2,15 +2,19 @@ from ciera_diagnostics import usage, quickstart
 import pandas
 
 # loop over reports for all CIERA buy-in accounts
-accounts = ['b1095', 'b1094']
+accounts = ['b1095', 'b1094', 'b1119']
 
 # time period for usage report
+"""
 time_periods = [['5/01/19', '8/01/19'],
                ['8/01/19', '11/01/19'],
                ['11/01/19', '2/01/20'],
                ['2/01/20', '5/01/20'],
                ['5/01/20', '8/01/20'],
                ]
+"""
+
+time_periods = [['8/01/20', '11/01/20']]
 # user info
 all_accounts_members = pandas.DataFrame()
 for account in accounts:
